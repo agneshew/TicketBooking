@@ -21,8 +21,11 @@ dependencies {
 
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'mysql:mysql-connector-java'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+	compile 'ch.vorburger.mariaDB4j:mariaDB4j:2.2.3'
+
 }
 
 test {
